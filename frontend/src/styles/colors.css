@@ -1,0 +1,107 @@
+/*
+ * SPDX-FileCopyrightText: 2025 Jesse Aubin <jesseb34r@jesseaubin.me>
+ *
+ * SPDX-License-Identifier: GPL-3.0-or-later
+ */
+
+@theme {
+  --color-\*: initial;
+
+  /* radix tealdark */
+  --color-accent-1: #0d1514;
+  --color-accent-2: #111c1b;
+  --color-accent-3: #0d2d2a;
+  --color-accent-4: #023b37;
+  --color-accent-5: #084843;
+  --color-accent-6: #145750;
+  --color-accent-7: #1c6961;
+  --color-accent-8: #207e73;
+  --color-accent-9: #12a594;
+  --color-accent-10: #0eb39e;
+  --color-accent-11: #0bd8b6;
+  --color-accent-12: #adf0dd;
+
+  /* radix graydark */
+  --color-neutral-1: #111111;
+  --color-neutral-2: #191919;
+  --color-neutral-3: #222222;
+  --color-neutral-4: #2a2a2a;
+  --color-neutral-5: #313131;
+  --color-neutral-6: #3a3a3a;
+  --color-neutral-7: #484848;
+  --color-neutral-8: #606060;
+  --color-neutral-9: #6e6e6e;
+  --color-neutral-10: #7b7b7b;
+  --color-neutral-11: #b4b4b4;
+  --color-neutral-12: #eeeeee;
+
+  /* radix graydarkA */
+  --color-shadow-1: #00000000;
+  --color-shadow-2: #ffffff09;
+  --color-shadow-3: #ffffff12;
+  --color-shadow-4: #ffffff1b;
+  --color-shadow-5: #ffffff22;
+  --color-shadow-6: #ffffff2c;
+  --color-shadow-7: #ffffff3b;
+  --color-shadow-8: #ffffff55;
+  --color-shadow-9: #ffffff64;
+  --color-shadow-10: #ffffff72;
+  --color-shadow-11: #ffffffaf;
+  --color-shadow-12: #ffffffed;
+
+  /* radix grayA */
+  --color-overlay-1: #00000003;
+  --color-overlay-2: #00000006;
+  --color-overlay-3: #0000000f;
+  --color-overlay-4: #00000017;
+  --color-overlay-5: #0000001f;
+  --color-overlay-6: #00000026;
+  --color-overlay-7: #00000031;
+  --color-overlay-8: #00000044;
+  --color-overlay-9: #00000072;
+  --color-overlay-10: #0000007c;
+  --color-overlay-11: #0000009b;
+  --color-overlay-12: #000000df;
+
+  /* radix grassdark */
+  --color-success-1: #0e1511;
+  --color-success-2: #141a15;
+  --color-success-3: #1b2a1e;
+  --color-success-4: #1d3a24;
+  --color-success-5: #25482d;
+  --color-success-6: #2d5736;
+  --color-success-7: #366740;
+  --color-success-8: #3e7949;
+  --color-success-9: #46a758;
+  --color-success-10: #53b365;
+  --color-success-11: #71d083;
+  --color-success-12: #c2f0c2;
+
+  /* radix amberdark */
+  --color-warning-1: #16120c;
+  --color-warning-2: #1d180f;
+  --color-warning-3: #302008;
+  --color-warning-4: #3f2700;
+  --color-warning-5: #4d3000;
+  --color-warning-6: #5c3d05;
+  --color-warning-7: #714f19;
+  --color-warning-8: #8f6424;
+  --color-warning-9: #ffc53d;
+  --color-warning-10: #ffd60a;
+  --color-warning-11: #ffca16;
+  --color-warning-12: #ffe7b3;
+
+  /* radix tomatodark */
+  --color-danger-1: #181111;
+  --color-danger-2: #1f1513;
+  --color-danger-3: #391714;
+  --color-danger-4: #4e1511;
+  --color-danger-5: #5e1c16;
+  --color-danger-6: #6e2920;
+  --color-danger-7: #853a2d;
+  --color-danger-8: #ac4d39;
+  --color-danger-9: #e54d2e;
+  --color-danger-10: #ec6142;
+  --color-danger-11: #ff977d;
+  --color-danger-12: #fbd3cb;
+}

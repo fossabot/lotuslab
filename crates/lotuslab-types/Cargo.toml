@@ -1,0 +1,15 @@
+# SPDX-FileCopyrightText: 2025 Jesse Aubin <jesseb34r@jesseaubin.me>
+#
+# SPDX-License-Identifier: GPL-3.0-or-later
+
+[package]
+name = "lotuslab-types"
+edition = { workspace = true }
+
+[dependencies]
+anyhow = { workspace = true }
+async-trait = { workspace = true }
+chrono = { workspace = true }
+serde = { workspace = true }
+specta = { workspace = true }
+thiserror = { workspace = true }

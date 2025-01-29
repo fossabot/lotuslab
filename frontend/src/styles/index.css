@@ -1,0 +1,18 @@
+/*
+ * SPDX-FileCopyrightText: 2025 Jesse Aubin <jesseb34r@jesseaubin.me>
+ *
+ * SPDX-License-Identifier: GPL-3.0-or-later
+ */
+
+@import "tailwindcss";
+
+@import "./colors.css";
+@import "./spacing.css";
+@import "./animations.css";
+
+@plugin "@kobalte/tailwindcss";
+
+:focus {
+  outline: none;
+  box-shadow: none;
+}

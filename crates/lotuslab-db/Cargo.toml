@@ -1,0 +1,23 @@
+# SPDX-FileCopyrightText: 2025 Jesse Aubin <jesseb34r@jesseaubin.me>
+#
+# SPDX-License-Identifier: GPL-3.0-or-later
+
+[package]
+name = "lotuslab-db"
+edition = { workspace = true }
+
+[dependencies]
+lotuslab-types = { workspace = true }
+
+async-trait = { workspace = true }
+chrono = { workspace = true }
+log = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+surrealdb = { workspace = true }
+surrealdb-types = { workspace = true }
+thiserror = { workspace = true }
+
+[dev-dependencies]
+tempfile = { workspace = true }
+tokio = { workspace = true }

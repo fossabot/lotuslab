@@ -1,0 +1,73 @@
+// SPDX-FileCopyrightText: 2025 Jesse Aubin <jesseb34r@jesseaubin.me>
+//
+// SPDX-License-Identifier: GPL-3.0-or-later
+{
+  "preferred_line_length": 80,
+  "tab_size": 4,
+
+  "languages": {
+    "CSS": {
+      "formatter": { "language_server": { "name": "biome" } },
+      "code_actions_on_format": { "source.fixAll.biome": true }
+    },
+    "JSON": {
+      "formatter": { "language_server": { "name": "biome" } },
+      "code_actions_on_format": { "source.fixAll.biome": true },
+      "tab_size": 2
+    },
+    "JSONC": {
+      "formatter": { "language_server": { "name": "biome" } },
+      "code_actions_on_format": { "source.fixAll.biome": true },
+      "tab_size": 2
+    },
+    "TSX": {
+      "formatter": { "language_server": { "name": "biome" } },
+      "code_actions_on_format": {
+        "source.fixAll.biome": true,
+        "source.organizeImports.biome": true
+      },
+      "tab_size": 2,
+      "preferred_line_length": 100
+    },
+    "TypeScript": {
+      "formatter": { "language_server": { "name": "biome" } },
+      "code_actions_on_format": {
+        "source.fixAll.biome": true,
+        "source.organizeImports.biome": true
+      }
+    },
+    "Rust": {
+      "preferred_line_length": 100
+    }
+  },
+
+  "lsp": {
+    "biome": {
+      "settings": {
+        "config_path": "biome.jsonc",
+        "require_config_file": true
+      }
+    },
+    "rust-analyzer": {
+      "initialization_options": {
+        "rust": {
+          "analyzerTargetDir": true
+        }
+      }
+    },
+    "tailwindcss-language-server": {
+      "settings": {
+        "classFunctions": ["cva", "cx", "tw"]
+      }
+    },
+    "vscode-css-language-server": {
+      "settings": {
+        "css": {
+          "lint": {
+            "unknownAtRules": "ignore"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "$schema": "../../frontend/node_modules/@tauri-apps/cli/config.schema.json",
+  "productName": "lotuslab",
+  "version": "0.1.0",
+  "identifier": "me.jesseaubin.lotuslab",
+  "build": {
+    "beforeDevCommand": { "cwd": "../../frontend", "script": "bun run dev" },
+    "devUrl": "http://localhost:5173",
+    "beforeBuildCommand": {
+      "cwd": "../../frontend",
+      "script": "bun run build"
+    },
+    "frontendDist": "../../frontend/dist"
+  },
+  "app": {
+    "windows": [
+      {
+        "title": "LotusLab",
+        "width": 800,
+        "height": 600,
+        "resizable": true,
+        "fullscreen": false
+      }
+    ],
+    "security": {
+      "csp": null
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": "all",
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.icns",
+      "icons/icon.ico"
+    ]
+  }
+}

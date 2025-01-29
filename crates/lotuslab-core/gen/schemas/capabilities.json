@@ -1,0 +1,1 @@
+{"main":{"identifier":"main","description":"main app capabilities","local":true,"windows":["main"],"permissions":["core:default","core:path:default","core:path:allow-resolve-directory","log:default"]}}

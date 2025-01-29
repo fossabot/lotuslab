@@ -1,0 +1,27 @@
+# SPDX-FileCopyrightText: 2025 Jesse Aubin <jesseb34r@jesseaubin.me>
+#
+# SPDX-License-Identifier: GPL-3.0-or-later
+
+[package]
+name = "lotuslab-core"
+edition = { workspace = true }
+
+[lib]
+name = "app_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { workspace = true }
+
+[dependencies]
+lotuslab-db = { workspace = true }
+lotuslab-services = { workspace = true }
+lotuslab-types = { workspace = true }
+
+anyhow = { workspace = true }
+log = { workspace = true }
+tauri = { workspace = true }
+specta = { workspace = true }
+specta-typescript = { workspace = true }
+tauri-specta = { workspace = true }
+tauri-plugin-log = { workspace = true }

@@ -1,0 +1,37 @@
+{
+  "name": "lotuslab",
+  "version": "0.0.0",
+  "author": "Jesse Aubin <jesseb34r@jesseaubin.me>",
+  "license": "GPL-3.0-or-later",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@kobalte/core": "0.13.11",
+    "@kobalte/tailwindcss": "0.9.0",
+    "@radix-ui/colors": "3.0.0",
+    "@solidjs/router": "0.15.3",
+    "@tanstack/solid-table": "8.21.3",
+    "@tauri-apps/api": "2.9.0",
+    "class-variance-authority": "0.7.1",
+    "clsx": "2.1.1",
+    "solid-js": "1.9.10",
+    "tailwind-merge": "3.3.1",
+    "tailwindcss-animate": "1.0.7",
+    "tailwindcss-radix-colors": "2.1.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "4.1.16",
+    "@tauri-apps/cli": "2.9.3",
+    "typescript": "5.9.3",
+    "vite": "7.2.1",
+    "vite-plugin-solid": "2.11.10",
+    "tailwindcss": "4.1.16"
+  },
+  "trustedDependencies": [
+    "@tailwindcss/oxide"
+  ]
+}

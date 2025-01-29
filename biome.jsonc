@@ -1,0 +1,80 @@
+// SPDX-FileCopyrightText: 2025 Jesse Aubin <jesseb34r@jesseaubin.me>
+//
+// SPDX-License-Identifier: GPL-3.0-or-later
+
+{
+  "root": false,
+  "$schema": "https://biomejs.dev/schemas/2.3.4/schema.json",
+  "files": {
+    "includes": [
+      "**",
+      "!.bun",
+      "!bun.lock",
+      "!dist",
+      "!node_modules",
+      "!src/bindings.ts", // don't format/check generated file from specta
+
+      // format json files in backend code
+      "../**/*.json",
+      "!../**/gen/schemas"
+    ]
+  },
+
+  "assist": {
+    "actions": {
+      "source": {
+        "organizeImports": "on",
+        "useSortedAttributes": "on",
+        "useSortedProperties": "on"
+      }
+    },
+    "enabled": true
+  },
+
+  "formatter": {
+    "enabled": true,
+    "indentStyle": "space"
+  },
+
+  "linter": {
+    "enabled": true,
+    "domains": {
+      "solid": "all"
+    },
+    "rules": {
+      "recommended": true,
+      "a11y": {
+        "noSvgWithoutTitle": "off",
+        "useAltText": "off",
+        "useKeyWithClickEvents": "off",
+        "useKeyWithMouseEvents": "off"
+      },
+      "correctness": {
+        "noInvalidPositionAtImportRule": "off"
+      },
+      "nursery": {
+        "useSortedClasses": {
+          "fix": "safe",
+          "level": "warn",
+          "options": {
+            "attributes": ["classList"],
+            "functions": ["cx", "cva", "tw"]
+          }
+        }
+      },
+      "style": {
+        "noNonNullAssertion": "off",
+        "noUselessElse": "off"
+      }
+    }
+  },
+
+  "css": {
+    "parser": {
+      "tailwindDirectives": true
+    }
+  },
+  "json": {
+    "assist": { "enabled": true }
+  }
+}
