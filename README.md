@@ -4,6 +4,11 @@ SPDX-FileCopyrightText: 2025 Jesse Aubin <jesseb34r@jesseaubin.me>
 SPDX-License-Identifier: CC-BY-4.0
 -->
 
+> ⚠️ **This repository is a read-only mirror.**
+>
+> Development happens at [Codeberg](https://codeberg.org/jesseb34r/lotuslab).
+> Please visit the main repository for the latest updates, issues, and contributions.
+
 # LotusLab
 
 LotusLab is a local-first app for creating and maintaining magic projects. Think of it like an offline and local deck builder and scryfall search with flexibility for decks, cubes, scratch lists, and much more.
